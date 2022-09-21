@@ -17,7 +17,9 @@
     <header>
       <h1 class="title">Le site du Enzo</h1>
       <p>Quel Enzo sera-tu aujourd'hui?</p>
-      <a href="https://www.facebook.com/enzo.encognere" class="button-blue"> Repars avec ton Enzo de poche dès maintenant !</a>
+      <button class="button-blue">
+        <a href="https://www.facebook.com/enzo.encognere" > Repars avec ton Enzo de poche dès maintenant !</a>
+      </button>
     </header>
 
      <!-- Cards section -->
@@ -26,17 +28,24 @@
 
         <div class="cards">
 
-          <div class = "card-white">
-            <a href="EnzoRaie.html" target="_blank"><img src="images/enzoraie.jpg" alt="Enzo Raie" width="200px"><h3>Enzo Raie</h3></a>
-          </div>
+          <a href="EnzoRaie.html" target="_blank">
+            <div class = "card-white">
+              <img src="images/enzoraie.jpg" alt="Enzo Raie"><h3>Enzo Raie</h3>
+            </div>
+          </a>
 
-          <div class = "card-white">
+          <a href="EnzoRaie.html" target="_blank">
+            <div class = "card-white">
+              <img src="images/enzoraie.jpg" alt="Enzo Raie"><h3>Enzo Raie</h3>
+            </div>
+          </a>
+          <!--<div class = "card-white">
             <a href="EnzoFrange.html" target="_blank"><img src="images/enzofrange.jpg" alt="Enzo Frange" width="200px"><h3>Enzo Frange</h3></a>
           </div>
 
           <div class = "card-white">
             <a href="EnzoFarce.html" target="_blank"><img src="images/enzofarce.jpg" alt="Enzo Farceur" width="200px"><h3>Enzo Farceur</h3></a>
-          </div>
+          </div> --> 
            
         </div>
 
@@ -46,11 +55,16 @@
 
     <footer>
       <p>Choose your Enzo right now ! 😍</p>
-      <select>
-        <option>Enzo Raie</option>
-        <option>Enzo Farceur</option>
-        <option>Enzo Frange</option>
-      </select>
+      <form action="" method="get">
+        <select name="name" id="name">
+          <option value="Enzo Raie">Enzo Raie</option>
+          <option value="Enzo Farceur">Enzo Farceur</option>
+          <option value="Enzo Frange ">Enzo Frange</option>
+        </select>
+        <button type="submit">
+          OK
+        </button>
+      </form>
     </footer>
 
   </body>
