@@ -20,7 +20,7 @@ main {
 }
 
 header {
-  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('images/main.jpg');
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('images/fete.jpg');
   background-size: cover;
   background-position: center;
   padding: 100px 0;
@@ -42,6 +42,18 @@ header img {
   height: 180px;
   object-fit: cover;
   border-radius: 50%;
+}
+
+.headerFrange{
+  background-image: url('images/calv.jpg');
+}
+
+.headerRaie{
+  background-image: url('images/main.jpg');
+}
+
+.headerFarce{
+  background-image: url('images/fete.jpg');
 }
 
 footer {
